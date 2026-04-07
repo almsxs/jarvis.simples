@@ -23,7 +23,6 @@ def abrir_site():
     print("3 - GitHub")
     print("4 - Whatsapp")
     print("5 - Tiktok")
-    print("6 - Instagram")
     
     escolha = input("Digite o número: ").strip()
     sites = {'1': 'https://youtube.com', '2': 'https://google.com', '3': 'https://github.com', '4': 'https://web.whatsapp.com', '5': 'https://tiktok.com', '6': 'https://instagram.com'}
@@ -54,8 +53,7 @@ def menu_principal():
         print("3 - 💻 Info do PC")
         print("4 - 💬 Abrir whatsapp")
         print("5 - 🎵 Abrir Tiktok")
-        print("6 - 💬 Abrir Instagram")
-        print("7 - ❌ Sair")
+        print("6 - ❌ Sair")
         print("="*50)
         
         escolha = input(" Digite sua escolha senhor(a): ").strip()
